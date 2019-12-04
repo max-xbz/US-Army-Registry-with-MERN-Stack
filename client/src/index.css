@@ -1,0 +1,34 @@
+.content-header {
+  text-align: center;
+}
+
+
+
+/* previous infinit scroll table style */
+tbody {
+  display:block;
+  height:400px;
+  overflow:auto;
+}
+thead, tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
+thead {
+  width: calc( 100% - 1em )
+}
+table {
+  width:400px;
+}
+.thumb {
+  height: 75px;
+  border: 1px solid #000;
+  margin: 10px 5px 0 0;
+}
+.btn:active { 
+  outline: none;
+}
+.btn:focus {
+  outline: none;
+}
